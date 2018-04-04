@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Chicle', cursive;
+
+}
+
+body {
+	background: radial-gradient(yellow, blue);
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+a {
+	font-size: 20px;
+	margin: 5px;
+	color: black;
+}
+
+.clear:after {
+	content: " ";
+	clear: both;
+	display: block;
+}
+
+main#wrapper-1 {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.container-1 {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.menu {
+	border: 5px solid black;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.header {
+	text-align: center;
+	margin: 20px;
+}
+
+.img-1 > img {
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.wrapper2 {
+	border-top: 3px solid black;
+	padding: 20px;
+}
+
+.left-1 {
+	width: 50%;
+	float: left;
+	padding: 30px;
+}
+
+.right-1 {
+	width: 50%;
+	float: left;
+	padding: 30px;
+}
+
+.comment-1 {
+	/*background-color: red;*/
+}
+
+.comment-1 > p {
+	display: inline;
+}
+
+.comment-1-img {
+	padding: 10px;
+	width: 70%;
+}
+
+.comment-1-img > img {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-right: 3px; 	
+}
+
+.comment-1-img > p {
+}
+
+input[name="more"] {
+	float: right;
+}
+
+footer {
+	border-top: 2px solid black;
+	text-align: center; 
+}
